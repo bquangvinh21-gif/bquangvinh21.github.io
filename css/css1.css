@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f9ff;
+}
+
+/* HEADER */
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50px;
+    background: rgba(0,119,182,0.9);
+    color: white;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f9ff;
+}
+
+/* HEADER */
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50px;
+    background: rgba(0,119,182,0.9);
+    color: white;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+/* PAGE BANNER */
+.page-banner {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+/* DESTINATION LIST */
+.destination-list {
+    padding: 50px;
+}
+
+.destination-item {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 40px;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 12px rgba(0,0,0,0.1);
+}
+
+.destination-item img {
+    width: 100px;
+    object-fit: cover;
+}
+
+.destination-info {
+    padding: 20px;
+    text-align: left;
+}
+
+.destination-info h2 {
+    color: #0077b6;
+}
+
+.price {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.destination-info button {
+    padding: 10px 20px;
+    background: #00b4d8;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
